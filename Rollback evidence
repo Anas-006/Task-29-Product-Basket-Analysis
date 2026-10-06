@@ -1,0 +1,26 @@
+ROLLBACK EVIDENCE
+
+Project: Task 29 - Product Basket Analysis
+
+Rollback File:
+top_product_pairs.csv
+
+Rollback Description:
+
+The generated product-pair analysis output is stored separately from the original dataset.
+
+If the analysis output needs to be reverted, the generated output files can be removed and the original dataset can be reloaded.
+
+The original source dataset remains unchanged.
+
+Files that can be removed during rollback:
+
+- cleaned_online_retail.csv
+- top_product_pairs.csv
+- product_recommendations.csv
+
+Rollback Action:
+
+Delete the generated analysis files and rerun the analysis from the original Online Retail II dataset when required.
+
+This allows the analysis to be recreated without modifying the original source data.
